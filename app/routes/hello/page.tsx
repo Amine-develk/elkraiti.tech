@@ -11,9 +11,9 @@ export default function Home() {
   return (
     <>
       <H1 id="hello">Hello.</H1>
-      <H2>I build Software & Design.</H2>
+      <H2>I build Software Applications.</H2>
       <h2 className="text-xl uppercase tracking-wider opacity-60 mt-12">
-        Latest articles
+        Latest projects
       </h2>
       <ol className="flex flex-col gap-12 mt-2">
         {latestPosts.map((post) => {
@@ -50,7 +50,7 @@ export default function Home() {
           </h2>
           <div className="text-xl">
             <a
-              href="https://www.linkedin.com/in/cfeijoo/"
+              href="https://www.linkedin.com/in/amine-el-kraiti/"
               target="_blank"
               className="uppercase group"
             >

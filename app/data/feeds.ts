@@ -16,11 +16,11 @@ export function getFeedData() {
   const config: FeedConfig = {
     title: "kube.io",
     description: "Articles and notes",
-    origin: "https://kube.io",
+    origin: "https://elkraiti.tech",
     author: {
-      name: "kube",
-      email: "contact@kube.io",
-      url: "https://kube.io",
+      name: "amine",
+      email: "elkraitia@gmail.com",
+      url: "https://elkraiti.tech",
     },
   };
 
