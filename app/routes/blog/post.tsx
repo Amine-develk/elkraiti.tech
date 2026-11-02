@@ -73,7 +73,7 @@ export default function BlogIndex({ params }: Route.ComponentProps) {
             style={{ viewTransitionName: "hero-title-blog" }}
             className="[view-transition-class:herotitle]"
           >
-            Articles /
+            Projects /
           </span>
         </Link>
       </h1>

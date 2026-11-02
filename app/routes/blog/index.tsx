@@ -8,10 +8,10 @@ import { createMetaTags } from "../../utils/meta";
 
 export const meta = () => {
   return createMetaTags({
-    title: "Articles — kube.io",
-    description: "Articles about web development, design, and technology",
-    url: "https://kube.io/blog",
-    image: "https://kube.io/og-image-blog.png",
+    title: "Projects — elkraiti.tech",
+    description: "Software development projects",
+    url: "https://elkraiti.tech/blog",
+    image: "https://elkraiti.tech/og-image-blog.png",
   });
 };
 
@@ -54,7 +54,7 @@ export default function BlogIndex() {
   return (
     <>
       <div className="flex items-center justify-between gap-4">
-        <H1 id="blog">Articles</H1>
+        <H1 id="blog">Projects</H1>
 
         <a
           href="/rss.xml"

@@ -99,7 +99,7 @@ export const PageLayout: React.FC<React.PropsWithChildren> = ({ children }) => {
                   <NavbarLink to="/workshop" text="Workshop" />
                 )}
 
-                {FLAGS.BLOG && <NavbarLink to="/blog" text="Blog" />}
+                {FLAGS.BLOG && <NavbarLink to="/blog" text="projects" />}
 
                 <NavbarLink to="/cv" text="CV" />
               </ul>
